@@ -13,11 +13,6 @@ a:hover {
     cursor: pointer;
     color: #fe0078;
 }
-
-ul {
-    list-style-type: none;
-}
-
 .grid {
     display: grid;
 }
@@ -36,7 +31,7 @@ body {
         "main aside"
         "footer footer";
     row-gap: 50px;
-    column-gap: 10px;
+    column-gap: 50px;
     justify-items: center;
 }
 
@@ -56,6 +51,7 @@ header img {
 }
 
 header ul {
+    list-style-type: none;
     height: 100%;
     width: 200px;
     align-items: center;
@@ -78,8 +74,8 @@ header li a {
     grid-area: main;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     height: 100%;
+    margin-bottom: 100px;
 }
 
 .main .content {
@@ -181,6 +177,7 @@ button:hover {
 }
 
 .aside .categories ul li {
+    list-style-type: none;
     padding: 15px;
     border-bottom: 2px dashed #eeeeee;
     color: #545454;
